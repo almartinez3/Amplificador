@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="App.Controlador">
+  <children>
+    <Pane layoutX="0.0" layoutY="5.0" prefHeight="400.0" prefWidth="600.0" rotate="0.0">
+      <children>
+        <ImageView fitHeight="400.0" fitWidth="591.3333740234375" layoutX="0.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="false">
+          <image>
+            <Image url="@../fxmlImagenes/images.jpg" />
+          </image>
+        </ImageView>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="GREY" height="50.0" layoutX="29.0" layoutY="119.0" stroke="BLACK" strokeType="INSIDE" width="199.4000244140625" />
+        <Slider layoutX="46.0" layoutY="193.0" orientation="VERTICAL" />
+        <Slider layoutX="100.0" layoutY="193.0" orientation="VERTICAL" />
+        <Slider layoutX="148.0" layoutY="200.0" orientation="VERTICAL" />
+        <Slider layoutX="199.0" layoutY="193.0" orientation="VERTICAL" />
+        <Slider layoutX="251.0" layoutY="193.0" orientation="VERTICAL" rotate="360.0" />
+        <ImageView fitHeight="124.0" fitWidth="252.1999969482422" layoutX="300.0" layoutY="46.0" pickOnBounds="true" preserveRatio="false">
+          <image>
+            <Image url="@../fxmlImagenes/giphy.gif" />
+          </image>
+        </ImageView>
+        <RadioButton layoutX="55.0" layoutY="50.0" mnemonicParsing="false" text="" />
+        <RadioButton layoutX="58.0" layoutY="98.0" mnemonicParsing="false" text="" />
+        <RadioButton layoutX="55.0" layoutY="138.0" mnemonicParsing="false" text="" />
+        <RadioButton layoutX="117.0" layoutY="50.0" mnemonicParsing="false" text="" />
+        <RadioButton layoutX="117.0" layoutY="98.0" mnemonicParsing="false" text="" />
+        <RadioButton layoutX="117.0" layoutY="138.0" mnemonicParsing="false" text="" />
+        <RadioButton layoutX="181.0" layoutY="50.0" mnemonicParsing="false" text="" />
+        <RadioButton layoutX="181.0" layoutY="98.0" mnemonicParsing="false" text="" />
+        <ScrollBar layoutX="527.0" layoutY="200.0" orientation="VERTICAL" prefHeight="149.9998779296875" />
+        <ProgressBar layoutX="300.0" layoutY="170.0" prefWidth="252.20001220703125" progress="0.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="140.0" layoutX="311.0" layoutY="209.0" stroke="BLACK" strokeType="INSIDE" width="200.0">
+          <fill>
+            <Color blue="0.625" green="0.625" red="0.625" fx:id="x1" />
+          </fill>
+        </Rectangle>
+        <Line endX="100.0" layoutX="411.0" layoutY="245.0" startX="-100.0" />
+        <Line endX="100.0" layoutX="411.0" layoutY="294.0" startX="-100.0" />
+        <Line endX="-68.0" endY="-83.0" layoutX="146.0" layoutY="254.0" startX="-67.0" startY="128.0" stroke="$x1" strokeWidth="2.8" />
+        <Line endX="-68.0" endY="-83.0" layoutX="251.0" layoutY="252.0" startX="-67.0" startY="128.0" strokeWidth="2.8">
+          <stroke>
+            <Color blue="0.624" green="0.624" red="0.624" fx:id="x2" />
+          </stroke>
+        </Line>
+        <Line endX="-68.0" endY="-83.0" layoutX="199.0" layoutY="254.0" startX="-67.0" startY="128.0" stroke="$x2" strokeWidth="2.8" />
+        <Line endX="-68.0" endY="-83.0" layoutX="298.0" layoutY="256.0" startX="-67.0" startY="128.0" stroke="$x2" strokeWidth="2.8" />
+        <Circle fill="DODGERBLUE" layoutX="332.0" layoutY="228.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="DODGERBLUE" layoutX="416.0" layoutY="228.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="DODGERBLUE" layoutX="486.0" layoutY="228.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="DODGERBLUE" layoutX="331.0" layoutY="225.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="RED" layoutX="416.0" layoutY="273.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="RED" layoutX="332.0" layoutY="273.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="#a5ff33" layoutX="416.0" layoutY="323.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="#52ff00" layoutX="332.0" layoutY="323.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="#8fff00" layoutX="486.0" layoutY="323.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="RED" layoutX="486.0" layoutY="273.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+        <RadioButton layoutX="181.0" layoutY="138.0" mnemonicParsing="false" text="" />
+        <Button layoutX="93.0" layoutY="14.0" mnemonicParsing="false" onAction="#action" text="Button" />
+      </children>
+      <effect>
+        <ColorAdjust brightness="-0.007633587786259444" hue="-0.04580152671755722" saturation="-0.05343511450381677" />
+      </effect>
+    </Pane>
+  </children>
+</AnchorPane>
